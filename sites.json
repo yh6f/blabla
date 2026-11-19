@@ -1,0 +1,18 @@
+{
+  "//": "Add any bio-link site here, or override a built-in one with the same name.",
+  "//url": "Must contain the {username} placeholder. Detection uses the HTTP status and visible headings.",
+  "//not_found": "Optional visible phrases that mean the name is free. Avoid generic words like 'Not Found' on sites whose profiles embed Discord widgets.",
+  "//check_body": "Only set true when you are sure the phrase never appears on a profile page.",
+  "//enabled": "Set to false to keep an entry without using it.",
+  "sites": [
+    {
+      "name": "bio.site",
+      "url": "https://bio.site/{username}",
+      "enabled": false,
+      "not_found": ["page not found", "profile not found"],
+      "premium": false,
+      "check_body": false,
+      "note": "Example custom provider - rename it, set enabled to true and adjust the url."
+    }
+  ]
+}

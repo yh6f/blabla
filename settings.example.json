@@ -1,0 +1,17 @@
+{
+  "//": "Created automatically next to gunslol.py. Everything here is editable in the menu.",
+  "intro": "fade",
+  "theme": "purple",
+  "sites": [
+    "guns.lol",
+    "jugs.lol"
+  ],
+  "delay": 0,
+  "letter_count": 4,
+  "filter_premium": true,
+  "save_to_file": true,
+  "use_proxies": false,
+  "use_customlist": false,
+  "speed": "adaptive",
+  "use_http": true
+}

@@ -1,0 +1,17 @@
+{
+  "intro": "rainbow",
+  "speed": "adaptive",
+  "use_http": true,
+  "theme": "rose",
+  "sites": [
+    "guns.lol",
+    "haunt.gg",
+    "jugs.lol"
+  ],
+  "delay": 0.0,
+  "letter_count": 3,
+  "filter_premium": true,
+  "save_to_file": true,
+  "use_proxies": true,
+  "use_customlist": true
+}

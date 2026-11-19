@@ -1,0 +1,4 @@
+selenium>=4.16.0,<5
+colorama>=0.4.6
+requests>=2.32.0,<3
+pystyle>=2.9

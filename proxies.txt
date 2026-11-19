@@ -1,0 +1,9 @@
+# One HTTP proxy per line. Lines starting with # or // are ignored.
+# Supported formats:
+#   host:port:username:password        (Webshare.io default)
+#   username:password@host:port
+#   host:port                          (proxy without authentication)
+#
+# Get 10 free permanent proxies at https://www.webshare.io/
+# Example:
+# 123.45.67.89:6000:myuser:mypassword

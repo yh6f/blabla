@@ -1,0 +1,12 @@
+# Example of webhooks.txt - the CLI creates and updates this file for you
+# from Settings ▸ Webhook manager.
+#
+# Format:  name | https://discord.com/api/webhooks/... | sites
+# The third field routes the webhook: a jugs.lol hit only reaches channels
+# routed to jugs.lol (or to every site with *). Missing = every site.
+#
+# Jugs hits  | https://discord.com/api/webhooks/1234567890/abcdef... | jugs.lol
+# Everything | https://discord.com/api/webhooks/0987654321/ghijkl... | *
+# Guns only  | https://discord.com/api/webhooks/1357924680/mnopqr... | guns.lol,haunt.gg
+#
+# This file contains secrets. Never share or commit it (it is gitignored).
